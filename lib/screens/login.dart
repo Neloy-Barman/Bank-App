@@ -88,10 +88,6 @@ class LogInScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        // textbuttonBuilder(
-                        //   "Forgot Password?",
-                        //   () {},
-                        // ),
                         TextButtonBuilder(
                           title: "Forgot Password?",
                           handler: () {},
