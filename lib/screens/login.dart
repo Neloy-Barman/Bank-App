@@ -91,6 +91,7 @@ class LogInScreen extends StatelessWidget {
                         TextButtonBuilder(
                           title: "Forgot Password?",
                           handler: () {},
+                          underline: true,
                         ),
                         const SizedBox(
                           height: 10,
@@ -99,6 +100,7 @@ class LogInScreen extends StatelessWidget {
                           text: "New to Bank Apps?",
                           title: "Sign Up",
                           handler: () {},
+                          underline: true,
                         ),
                       ],
                     ),

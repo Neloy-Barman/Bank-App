@@ -175,6 +175,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 text: "Already signed up?",
                 title: "Log in",
                 handler: () {},
+                underline: true,
               ),
             ),
           ],

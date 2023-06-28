@@ -151,8 +151,9 @@ class HomeScreen extends StatelessWidget {
               child: TextButtonBuilder(
                 title: "more >>",
                 handler: () {},
+                underline: false,
               ),
-            )
+            ),
           ],
         ),
       ),

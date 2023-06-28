@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-
 import '../itemwidgets/elevationbuttonbuilder.dart';
+
+import '../screens/sidedrawer.dart';
 
 class ExchangeScreen extends StatefulWidget {
   static const routeScreen = "./exchange";
@@ -30,26 +31,61 @@ class _ExchangeScreenState extends State<ExchangeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const SideDrawer(),
+      appBar: AppBar(
+        title: const Center(
+          child: Text(
+            "EXCHANGE",
+          ),
+        ),
+        flexibleSpace: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Color.fromARGB(
+                  255,
+                  28,
+                  59,
+                  112,
+                ),
+                Color.fromARGB(
+                  255,
+                  0,
+                  96,
+                  147,
+                ),
+              ],
+            ),
+          ),
+        ),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              Icons.settings,
+            ),
+          ),
+        ],
+      ),
       body: Container(
         child: Column(
           children: [
             Container(
-              height: MediaQuery.of(context).size.height * 0.5,
               child: Column(
                 children: [
                   Container(
-                    height: MediaQuery.of(context).size.height * 0.25,
+                    height: MediaQuery.of(context).size.height * 0.2,
                     child: const Image(
                       image: AssetImage(
-                        "assets/images/transaction.png",
+                        "assets/images/exchange.png",
                       ),
                     ),
                   ),
                   Container(
-                    height: MediaQuery.of(context).size.height * 0.25,
+                    height: MediaQuery.of(context).size.height * 0.3,
                     child: const Image(
                       image: AssetImage(
-                        "assets/images/transaction.png",
+                        "assets/images/exchange.png",
                       ),
                     ),
                   ),
@@ -57,14 +93,14 @@ class _ExchangeScreenState extends State<ExchangeScreen> {
               ),
             ),
             Container(
-              height: MediaQuery.of(context).size.height * 0.5,
+              height: MediaQuery.of(context).size.height * 0.38,
               child: GridView.builder(
                 padding: const EdgeInsets.all(
                   0,
                 ),
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 3,
-                  childAspectRatio: 1.5,
+                  childAspectRatio: 1.8,
                 ),
                 itemBuilder: (context, index) {
                   return Padding(

@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   font_awesome_flutter: ^10.4.0
+  dropdown_button2: ^2.3.3
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -64,6 +65,10 @@ flutter:
     - assets/images/mainLogo.png
     - assets/images/signUpLogo.png
     - assets/images/transaction.png
+    - assets/images/barcode.png
+    - assets/images/barcode_2.png
+    - assets/images/bank_card.png
+    - assets/images/exchange.png
     # - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

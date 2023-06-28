@@ -6,12 +6,14 @@ class TextWithButtonBuilder extends StatelessWidget {
   final String text;
   final String title;
   final Function handler;
+  final bool underline;
 
   const TextWithButtonBuilder({
     super.key,
     required this.text,
     required this.title,
     required this.handler,
+    required this.underline,
   });
 
   @override
@@ -32,6 +34,7 @@ class TextWithButtonBuilder extends StatelessWidget {
         TextButtonBuilder(
           title: title,
           handler: handler,
+          underline: underline,
         ),
       ],
     );
