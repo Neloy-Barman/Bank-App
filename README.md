@@ -8,7 +8,7 @@
 
 |<h2>HOME</h2>|<h2>TRANSACTIONS</h2>|<h2>ACCOUNT DETAILS</h2>|
 |-------------|---------------------|------------------------|
-|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/0bd4c1bb-31bb-4dd5-afcd-d8a251011179" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/7cd5f69d-3f2d-44a2-9d07-55aa6afc041e" width="280" height="500" />|<img src="" width="280" height="500" />
+|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/0bd4c1bb-31bb-4dd5-afcd-d8a251011179" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/7cd5f69d-3f2d-44a2-9d07-55aa6afc041e" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/38cf856e-4145-4477-afb2-4993a8e4b448" width="280" height="500" />
 
 |<h2>SCANNER</h2>|<h2>LINK CARD</h2>|<h2>CONFIRMATION</h2>|
 |----------------|------------------|---------------------|
