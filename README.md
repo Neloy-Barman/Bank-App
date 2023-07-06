@@ -2,10 +2,6 @@
 
 ## In every pages dummy data are used to check the design working progress. Some more screens and the full backend part is in development progress. The app is always tested in the real device. 
 
-
-![Screenshot_2023-07-06-13-17-19-785_com example bank_app]()
-
-
 |<h2>SIGN UP</h2>|<h2>LOG IN</h2>|<h2>DRAWER</h2>|
 |----------------|---------------|---------------|
 |<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/0f9140eb-33fd-4221-88bb-45e2e14a474b" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/cc0d0544-4a0c-460a-9caa-46dbaa000049" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/83683408-04f8-4bb5-8fe7-e2a35fe5b699" width="280" height="500" />
