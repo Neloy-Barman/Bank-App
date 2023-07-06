@@ -24,7 +24,7 @@ class BankApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const ExchangeScreen(),
+      home: const AccountDetails(),
       routes: {
         LogInScreen.routeScreen: (_) => LogInScreen(),
         SignUpScreen.routeScreen: (_) => SignUpScreen(),

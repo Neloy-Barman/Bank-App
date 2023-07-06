@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../itemwidgets/elevationbuttonbuilder.dart';
 
 import '../screens/sidedrawer.dart';
+import '../itemwidgets/dropdownbutton.dart';
 
 class ExchangeScreen extends StatefulWidget {
   static const routeScreen = "./exchange";
@@ -28,8 +28,53 @@ class _ExchangeScreenState extends State<ExchangeScreen> {
     "0",
     "X",
   ];
+
+  final currencies = <String>[
+    "৳",
+    "₹",
+    "\$",
+    "£",
+    "¥",
+    "₽",
+  ];
+
+  Widget formFieldBuilder(
+    String text,
+  ) {
+    return TextFormField(
+      decoration: InputDecoration(
+        fillColor: Colors.white,
+        border: const OutlineInputBorder(
+          borderSide: BorderSide(
+            width: 0,
+            style: BorderStyle.none,
+          ),
+        ),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(
+            10,
+          ),
+          borderSide: const BorderSide(
+            width: 1.5,
+            style: BorderStyle.solid,
+            color: Colors.black,
+          ),
+        ),
+        filled: true,
+        hintText: text,
+        hintStyle: const TextStyle(
+          fontSize: 16,
+          fontWeight: FontWeight.normal,
+          height: 1,
+        ),
+        hintTextDirection: TextDirection.rtl,
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    String cur = currencies.first;
     return Scaffold(
       drawer: const SideDrawer(),
       appBar: AppBar(
@@ -75,17 +120,77 @@ class _ExchangeScreenState extends State<ExchangeScreen> {
                 children: [
                   Container(
                     height: MediaQuery.of(context).size.height * 0.2,
-                    child: const Image(
-                      image: AssetImage(
-                        "assets/images/exchange.png",
+                    child: Transform.scale(
+                      scale: 1.5,
+                      child: const Image(
+                        image: AssetImage(
+                          "assets/images/exchange.png",
+                        ),
                       ),
                     ),
                   ),
-                  Container(
-                    height: MediaQuery.of(context).size.height * 0.3,
-                    child: const Image(
-                      image: AssetImage(
-                        "assets/images/exchange.png",
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 40,
+                    ),
+                    child: Container(
+                      height: MediaQuery.of(context).size.height * 0.3,
+                      child: Form(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: [
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  CustomDropdownButton(
+                                    items: currencies,
+                                    existingValue: cur,
+                                    wid: MediaQuery.of(context).size.width *
+                                        0.15,
+                                    hig: 55,
+                                    size: 20,
+                                  ),
+                                  const SizedBox(
+                                    width: 15,
+                                  ),
+                                  Expanded(
+                                    child: formFieldBuilder(
+                                      'Amount to be converted',
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const Text(
+                              "Convert to",
+                              style: TextStyle(
+                                fontSize: 20,
+                              ),
+                            ),
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  CustomDropdownButton(
+                                    items: currencies,
+                                    existingValue: cur,
+                                    wid: MediaQuery.of(context).size.width *
+                                        0.15,
+                                    hig: 55,
+                                    size: 20,
+                                  ),
+                                  const SizedBox(
+                                    width: 15,
+                                  ),
+                                  Expanded(
+                                    child: formFieldBuilder(
+                                      'Converted Amount',
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),

@@ -5,14 +5,19 @@ import '../datamodel/allicons.dart';
 import '../itemwidgets/cicledbutton.dart';
 import '../itemwidgets/textbuttonbuilder.dart';
 
+import './sidedrawer.dart';
+
 class HomeScreen extends StatelessWidget {
   static const routeScreen = "./home";
 
-  const HomeScreen({super.key});
+  const HomeScreen({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const SideDrawer(),
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: Colors.transparent,

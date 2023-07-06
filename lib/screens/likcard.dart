@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:dropdown_button2/dropdown_button2.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../screens/sidedrawer.dart';
 import '../itemwidgets/dropdownbutton.dart';
@@ -218,16 +216,22 @@ class _LinkCardState extends State<LinkCard> {
                             items: days,
                             existingValue: day,
                             wid: MediaQuery.of(context).size.width * 0.22,
+                            hig: 32,
+                            size: 14,
                           ),
                           CustomDropdownButton(
                             items: months,
                             existingValue: month,
                             wid: MediaQuery.of(context).size.width * 0.3,
+                            hig: 32,
+                            size: 14,
                           ),
                           CustomDropdownButton(
                             items: years,
                             existingValue: year,
                             wid: MediaQuery.of(context).size.width * 0.22,
+                            hig: 32,
+                            size: 14,
                           )
                         ],
                       )
@@ -266,6 +270,8 @@ class _LinkCardState extends State<LinkCard> {
                               items: phoneCodes,
                               existingValue: code,
                               wid: MediaQuery.of(context).size.width * 0.22,
+                              hig: 32,
+                              size: 14,
                             ),
                             SizedBox(
                               height: 32,

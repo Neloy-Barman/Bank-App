@@ -5,11 +5,15 @@ class CustomDropdownButton extends StatefulWidget {
   final List<String> items;
   String? existingValue;
   final double wid;
+  final double hig;
+  final double size;
   CustomDropdownButton({
     super.key,
     required this.items,
     required this.existingValue,
     required this.wid,
+    required this.hig,
+    required this.size,
   });
 
   @override
@@ -20,7 +24,7 @@ class _CustomDropdownButtonState extends State<CustomDropdownButton> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 32,
+      height: widget.hig,
       child: DropdownButtonHideUnderline(
         child: DropdownButton2<String>(
           isExpanded: true,
@@ -29,10 +33,10 @@ class _CustomDropdownButtonState extends State<CustomDropdownButton> {
                     value: item,
                     child: Text(
                       item,
-                      style: const TextStyle(
-                        fontSize: 14,
+                      style: TextStyle(
+                        fontSize: widget.size,
                         fontWeight: FontWeight.bold,
-                        // color: Colors.white,
+                        color: Colors.blue,
                       ),
                       overflow: TextOverflow.ellipsis,
                     ),

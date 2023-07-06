@@ -131,9 +131,32 @@ class AccountDetails extends StatelessWidget {
                   vertical: 10,
                 ),
                 child: Container(
-                  child: const Image(
-                    image: AssetImage(
-                      "assets/images/bank_card.png",
+                  decoration: const BoxDecoration(
+                    shape: BoxShape.circle,
+                    gradient: LinearGradient(
+                      colors: [
+                        Color.fromARGB(
+                          255,
+                          48,
+                          212,
+                          253,
+                        ),
+                        Color.fromARGB(
+                          255,
+                          1,
+                          154,
+                          214,
+                        ),
+                      ],
+                    ),
+                  ),
+                  child: const CircleAvatar(
+                    backgroundColor: Colors.transparent,
+                    radius: 50,
+                    child: Icon(
+                      FontAwesomeIcons.solidUser,
+                      color: Colors.white,
+                      size: 40,
                     ),
                   ),
                 ),
@@ -182,7 +205,7 @@ class AccountDetails extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(
-                  vertical: 20,
+                  vertical: 15,
                 ),
                 child: ElevationButtonBuilder(
                   con: context,
