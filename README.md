@@ -1,6 +1,4 @@
 # Banking App. 
-![Screenshot_2023-07-06-14-24-25-107_com example bank_app]()
-
 
 ## In every pages dummy data are used to check the design working progress. Some more screens and the full backend part is in development progress. The app is always tested in the real device. 
 
