@@ -4,15 +4,15 @@
 
 |<h2>SIGN UP</h2>|<h2>LOG IN</h2>|<h2>DRAWER</h2>|
 |----------------|---------------|---------------|
-|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/0f9140eb-33fd-4221-88bb-45e2e14a474b" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/cc0d0544-4a0c-460a-9caa-46dbaa000049" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/94690493-72e7-425a-9c38-25fcfdd60e95" width="280" height="500" />
+|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/4faa2707-9c1f-4845-9da2-bbce2979c902" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/6a07f76f-238b-4a58-8317-6351e542d431" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/70652356-68b4-4e6b-980b-b9d700ef7f0f" width="280" height="500" />
 
 |<h2>HOME</h2>|<h2>TRANSACTIONS</h2>|<h2>ACCOUNT DETAILS</h2>|
 |-------------|---------------------|------------------------|
-|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/0bd4c1bb-31bb-4dd5-afcd-d8a251011179" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/7cd5f69d-3f2d-44a2-9d07-55aa6afc041e" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/38cf856e-4145-4477-afb2-4993a8e4b448" width="280" height="500" />
+|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/d854c4ef-5843-4ab7-a465-2e929a271708" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/d6050957-16df-43f9-89f4-586a934d5fe9" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/55ca4f1c-6795-41df-b45d-6eab656bbf51" width="280" height="500" />
 
 |<h2>SCANNER</h2>|<h2>LINK CARD</h2>|<h2>CURRENCY EXCHANGE</h2>|
 |----------------|------------------|--------------------------|
-|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/4cedc21a-b96f-4632-8507-45b5d7365104" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/1f8dff56-3188-4720-a8ba-95c252ae67fd" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/52955090-4883-46cb-a360-54b25e8a4694" width="280" height="500" />
+|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/40c79568-4131-4a5d-acea-36276f86d861" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/c78463ed-806b-4aef-b444-82f74ff8e92c" width="280" height="500" />|<img src="https://github.com/Neloy-Barman/Bank-App/assets/110896263/bdb84b50-f614-4e09-b6df-85295b470035" width="280" height="500" />
 
 ## [N.B: I don't own the UI Design. I collected this resource from Image by <a href="https://www.freepik.com/free-vector/banking-app-interface_9158980.htm#query=BANKING%20APP&position=0&from_view=search&track=ais">Freepik</a>. I am giving this design a structure using flutter and dart for practicing purpose.]
 
